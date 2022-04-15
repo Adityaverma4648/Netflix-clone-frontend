@@ -1,0 +1,255 @@
+      /* General settings */
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+         /* body-------------------------------------------*/
+    body{
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: rgb(54, 54, 54);
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    /* section-1 -------------------------------------------- */
+    .landpage{
+        background-color: #000;
+        height: 75vh;
+        width: 100vw;
+        background-image: radial-gradient(circle ,rgba(0,0,0,0.6) , rgba(0,0,0,0.8)) , url("img/IN-en-20220411-popsignuptwoweeks-perspective_alpha_website_large\ \(1\).jpg");
+        background-repeat: none;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    /* section1 content -----------------------------------*/
+    .head{
+        height: 10%;
+        width: 100%;
+        /* background-color: rgb(103, 18, 18); */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+    }
+       /* btn -divs ------------------------------------  */
+    .buttons{
+        height: auto;
+         width: auto;
+        padding: 1rem;
+    }
+    .btn{
+        padding:  0.5rem 1rem;
+        color:#fff;
+        text-decoration: none;
+    }
+    .lang{
+        border: 1px solid #fff;
+        margin:0px 20px; 
+    }
+    .sign{
+        background-color: red;
+        margin:0px 20px; 
+    }
+    
+    .body_landpg{
+        height: 90%;
+        width: 90%;
+        /* background-color: blue; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+    }
+           /* ------------Form--------------------- */
+           form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 13%;
+            width: 45%;
+            margin: 1% 0px;
+        
+            /* background-color: aqua; */
+            
+        }
+        .getstarted input{
+           width: 70%;
+           height: 90%;
+           padding: 0px 3px;
+           font-size: 110%;
+        }
+        .getstartedbtn{
+           height: 90%;
+            width: 30%;
+            color: #fff;
+            text-decoration: none;
+            background-color: red;
+            font-weight: 900;
+            font-size: 140%;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    
+                     /* General heading and spantag */
+    
+    .heading{
+        color: #fff;
+        font-size: 350%;
+        font-weight: 900;
+        margin: 1% 0px;
+    }
+    
+    .spantag{
+        color: #fff;
+        font-size: 200%;
+        font-weight: 400;
+        margin: 1% 0px;
+    }
+    
+    
+    /* section landpage */
+    .q{
+        color: #fff;
+        font-size: 130%;
+    }
+    
+    .logo{
+        height: 75%;
+        width: 20%;
+        padding: 0px 2rem;
+        /* background-color: aliceblue; */
+    }
+    .logo img{
+        height: 100%;
+    }
+    
+    /* ----------------general section */
+    
+    .block{
+        min-height: 40vh;
+        min-width: 100vw;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+        margin: 0.3% 0px;
+    }
+    .txt{
+        height: 100%;
+        width: 50%;
+        margin: 0px 1%;
+    }
+    
+    .block h1{
+        font-size: 300%;
+        font-weight: 900;
+    
+    }
+    .block span{
+        font-size: 155%;
+        font-weight: 400;
+    }
+    .img-show{
+          width: 40%;
+    }
+    
+    .block-reverse{
+        display: flex;
+         flex-direction: row-reverse;
+    }
+    
+    
+    .query{
+        height: 70vh;
+        width: 100vw;
+    background-color: #000;    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        text-align: center;
+    }
+    .query h1{
+        font-size: 300%;
+        font-weight: 900;
+    }
+    
+    .ques{
+        width: 40%;
+        padding: 1% 2%;
+        background-color: rgb(65, 65, 65);
+        margin: 0.3% 0px;
+        font-size: 170%;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* footer---------------------------------------  */
+    
+    footer{
+        margin-top: 0.3%;
+        height: 40vh;
+        width: 100vw;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content :center;
+    }
+    
+    .contain{
+        height: 90%;
+        width: 50%;
+        /* background-color: aqua; */
+        padding: 10px 1rem;
+    }
+    footer span{
+        color: rgba(200, 200, 200, 0.719);
+    }
+    footer a{
+        color:  rgba(200, 200, 200, 0.719);
+    }
+    .col{
+        height: 50%;
+        /* background-color: red; */
+        padding: 10px 0px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        margin: 3.5% 0px;
+    }
+    .col-1{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: center; */
+        /* background-color: #000; */
+        margin: 0px 2% 0px 0px;
+    }
+    .col-1 a{
+        padding: 10px 0px;
+        margin: 10px 30px 10px 0px;
+    }
+    
+    .contain a{
+        margin-left: -10px;
+        padding: 1% 5%;
+        text-decoration: none;
+    }
+    
+    .plus{
+        height: 3%;
+    }
+    
