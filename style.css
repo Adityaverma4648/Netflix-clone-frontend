@@ -50,10 +50,13 @@
     .lang{
         border: 1px solid #fff;
         margin:0px 20px; 
+        border-radius: 3px;
+
     }
     .sign{
         background-color: red;
         margin:0px 20px; 
+        border-radius: 3px;
     }
     .lang-opt{
         padding: 10px 10px;
@@ -135,7 +138,7 @@
         color: #fff;
         font-size: 130%;
     }
-    
+    /* logo----------------------------------------------------------- */
     .logo{
         height: 75%;
         width: 20%;
@@ -160,7 +163,7 @@
     }
     .txt{
         height: 100%;
-        width: 50%;
+        width: 30%;
         margin: 0px 1%;
     }
     
@@ -174,7 +177,7 @@
         font-weight: 400;
     }
     .img-show{
-          height: 80%;
+          height: 75%;
           z-index: 99;
     }
     
@@ -182,6 +185,7 @@
         display: flex;
          flex-direction: row-reverse;
     }
+    /* video-------------------------------------------------------- */
     .img-vid{
         height: 100%;
         width: 50%;
@@ -194,7 +198,7 @@
         height: 300px;
         position: absolute;
     }
-    
+    /* query-Generalsection---------------------------------------- */
     .query{
         height: 80vh;
         width: 100vw;
@@ -204,6 +208,7 @@
         align-items:center;
         text-align: center;
     }
+
 
     .query h1{
         font-size: 300%;
@@ -240,9 +245,9 @@
         font-weight:400;
     }
     .icon img{
-        width: 45px;
+        width: 35px;
     }
-
+/* video-watch-div---------------------------------------- */
     .vid-show-watch{
              height: 200px;
              margin-top: -3%;
@@ -250,56 +255,67 @@
     /* footer---------------------------------------  */
     
     footer{
-        margin-top: 0.3%;
-        height: 40vh;
+        height: 50vh;
         width: 100vw;
         background-color: #000;
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        justify-content :center;
+        margin: 0.3% 0px;
+
     }
-    
+    /* footer components--------------------------------------------------- */
     .contain{
-        height: 90%;
+        height: 10%;
         width: 50%;
-        /* background-color: aqua; */
-        padding: 10px 1rem;
     }
     footer span{
         color: rgba(200, 200, 200, 0.719);
     }
     footer a{
+        text-decoration: none;
         color:  rgba(200, 200, 200, 0.719);
     }
+    /* columns footer------------------------------------------------------- */
     .col{
-        height: 50%;
         /* background-color: red; */
-        padding: 10px 0px;
+        width: 50%;
+        height: 40%;
         display: flex;
-        /* justify-content: center; */
         align-items: center;
-        margin: 3.5% 0px;
     }
+
     .col-1{
+        height: 100%;
+        width: 20%;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
-        /* align-items: center; */
-        /* background-color: #000; */
         margin: 0px 2% 0px 0px;
     }
     .col-1 a{
-        padding: 10px 0px;
+        padding: 0px 10px;
         margin: 10px 30px 10px 0px;
+        cursor: pointer;
     }
-    
     .contain a{
-        margin-left: -10px;
-        padding: 1% 5%;
+        margin: 0px 5px ;
+        padding: 20px 0px;
         text-decoration: none;
     }
-    
+    .btn-footer{
+        height: 25%;
+        width: 50%;
+        padding: 10px 0px;
+    }
+    .lang-footer{
+        padding: 15px 10px;
+        margin-left: -1px;
+    }
+    .btn-footer span{
+        margin-top : 5%;
+    }
+/* Media Query */
     @media only screen and  (max-width : 950px){
         .block{
             display: flex;
@@ -316,5 +332,8 @@
          .getstarted input{
              padding: 10px 0px;
          }
+         .vid-show-watch{
+            margin-top: -9%;
+   }
     } 
     
